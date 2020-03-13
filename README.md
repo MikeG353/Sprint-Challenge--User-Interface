@@ -33,23 +33,27 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Code can be hard to read. semantic HTML is used to convey meaning to other web developers.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-
+Block starts a new line and has height and width, inline does not start a new line and only takes up the space it's content requires.
 3. What are the 4 areas of the box model?
+contend, padding, border, margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+cross axis. justify works on main axis
 
 5. Explain why git is valuable to a team of developers.
+Version Control. being able to check out code in branches and submit changes allows developers to all work on a project without stepping on each other's toes and lets you undo changes if needed.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
